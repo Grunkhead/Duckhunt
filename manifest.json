@@ -1,0 +1,36 @@
+{
+    "title": "Stoute eend",
+    "description": "Het doel van het spel is om alle eenden uit de lucht te schieten, als je een eend niet optijd uit de lucht schiet verlies je een leven. Wees zuinig met je kogels, elk level krijg je 3 nieuwe kogels. Tip: schiet meerdere eenden tegelijk uit de lucht om kogels te besparen!",
+    "multiplayer": false,
+    "categories": [],
+    "controls": {
+        "buttons": {
+            "p1-up": "Naar boven richten",
+            "p1-down": "Naar onder richten",
+            "p1-left": "Naar links richten",
+            "p1-right": "Naar rechts richten",
+            "p1-btn-1": "",
+            "p1-btn-2": "",
+            "p1-btn-3": "",
+            "p1-btn-4": "",
+            "p1-btn-5": "",
+            "p1-btn-6": "Schieten",
+            "p1-btn-yellow": "",
+            "p1-btn-white": "",
+            "p1-btn-red": "",
+            "p2-up": "",
+            "p2-down": "",
+            "p2-left": "",
+            "p2-right": "",
+            "p2-btn-1": "",
+            "p2-btn-2": "",
+            "p2-btn-3": "",
+            "p2-btn-4": "",
+            "p2-btn-5": "",
+            "p2-btn-6": "",
+            "p2-btn-yellow": "",
+            "p2-btn-white": "",
+            "p2-btn-red": ""
+        }
+    }
+}
