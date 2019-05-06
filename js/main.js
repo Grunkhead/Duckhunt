@@ -119,7 +119,7 @@ var Duck = (function (_super) {
         this.upspeed = Tools.util.randomIntFromInterval(30, 50) / 100 + multiplier;
         this.gone = false;
         this.x = Tools.util.randomIntFromInterval(64, 738);
-        this.y = Tools.util.randomIntFromInterval(960, 1080);
+        this.y = Tools.util.randomIntFromInterval(960, 900);
         console.log("Verticaal:" + this.sidespeed + " Horizontaal" + this.upspeed);
     };
     Duck.prototype.getLocation = function () {
@@ -152,7 +152,7 @@ var Flying = (function () {
     Flying.prototype.performBehavior = function () {
         this.duck.x += this.duck.sidespeed;
         this.duck.y -= this.duck.upspeed;
-        if (this.duck.x > 1870 || this.duck.x < 0) {
+        if (this.duck.x > 1390 || this.duck.x < 0) {
             this.duck.sidespeed -= (this.duck.sidespeed * 2);
         }
         if (this.duck.sidespeed < 0) {
@@ -305,8 +305,8 @@ var Game = (function () {
             element: document.body,
             engine: this.engine,
             options: {
-                height: 1080,
-                width: 1920
+                height: 900,
+                width: 1440
             }
         });
         Matter.Engine.run(this.engine);
